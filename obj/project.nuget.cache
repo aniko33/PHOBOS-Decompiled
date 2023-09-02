@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LAdSqh72CykAXO0h5z99N2NV4nGNE4VGy4afY0ABw03BNI8m4g/7OanK8MBuwET0bvWdXbLzG8Fd9CRVk5U/0g==",
+  "success": true,
+  "projectFilePath": "/home/aniko/Documents/malwareAnalysing/Phobos/Phobos.csproj",
+  "expectedPackageFiles": [
+    "/home/aniko/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.21/microsoft.aspnetcore.app.ref.6.0.21.nupkg.sha512"
+  ],
+  "logs": []
+}
