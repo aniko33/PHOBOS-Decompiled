@@ -42,7 +42,7 @@ namespace Gameform
             loly = lolyMax;
 
             // Setup timer
-            // TODO: decompiler "Timer" class
+            // TODO: decompile "Timer" class
             timer = new Timer();
             timer.Interval = 50;
             timer.Tick += Timer_Tick;
